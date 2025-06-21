@@ -4,10 +4,10 @@ import numpy as np
 import pydicom
 from PyQt5.QtWidgets import (
     QApplication, QMainWindow, QLabel, QPushButton, QFileDialog, QVBoxLayout,
-    QWidget, QSpinBox, QHBoxLayout, QMessageBox, QInputDialog
+    QWidget, QSpinBox, QHBoxLayout, QInputDialog, QMessageBox
 )
-from PyQt5.QtGui import QImage, QPixmap, QCursor
-from PyQt5.QtCore import Qt, QPoint
+from PyQt5.QtGui import QImage, QPixmap
+from PyQt5.QtCore import Qt, QPoint  # Added QPoint here
 import os
 import logging
 import time
